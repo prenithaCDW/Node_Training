@@ -1,0 +1,37 @@
+[
+  {
+    "color": "turquoise 3",
+    "code": {
+      "hex": "#00C5CD"
+    },
+    "id": 155
+  },
+  {
+    "color": "powderblue",
+    "code": {
+      "hex": "#B0E0E6"
+    },
+    "id": 148
+  },
+  {
+    "color": "azure 3",
+    "code": {
+      "hex": "#C1CDCD"
+    },
+    "id": 161
+  },
+  {
+    "color": "lightblue 1",
+    "code": {
+      "hex": "#BFEFFF"
+    },
+    "id": 144
+  },
+  {
+    "color": "cyan 3",
+    "code": {
+      "hex": "#00CDCD"
+    },
+    "id": 178
+  }
+]
