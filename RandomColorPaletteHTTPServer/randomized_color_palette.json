@@ -1,0 +1,37 @@
+[
+  {
+    "color": "powderblue",
+    "code": {
+      "hex": "#B0E0E6"
+    },
+    "id": 148
+  },
+  {
+    "color": "darkslategray 4",
+    "code": {
+      "hex": "#528B8B"
+    },
+    "id": 175
+  },
+  {
+    "color": "lightcyan 4",
+    "code": {
+      "hex": "#7A8B8B"
+    },
+    "id": 166
+  },
+  {
+    "color": "darkslategray 2",
+    "code": {
+      "hex": "#8DEEEE"
+    },
+    "id": 173
+  },
+  {
+    "color": "paleturquoise 4",
+    "code": {
+      "hex": "#668B8B"
+    },
+    "id": 170
+  }
+]
