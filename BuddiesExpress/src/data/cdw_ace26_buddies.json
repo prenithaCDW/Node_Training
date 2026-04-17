@@ -1,0 +1,22 @@
+[
+  {
+    "employeeId": "ACE026",
+    "realName": "Prenitha",
+    "nickName": "Pre",
+    "dob": "2004-04-10",
+    "hobbies": [
+      "reading",
+      "music"
+    ]
+  },
+  {
+    "employeeId": "ACE025",
+    "realName": "Gowtham",
+    "nickName": "Gowri",
+    "dob": "2004-03-31",
+    "hobbies": [
+      "anime",
+      "coding"
+    ]
+  }
+]
