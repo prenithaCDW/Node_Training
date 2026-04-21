@@ -15,9 +15,7 @@ const getAll = () => {
  */
 const getOne = (value) => {
     const buddies = readData();
-    const buddy = buddies.find((item) => {
-        item.employeeId === value || item.realName.toLowerCase() === value.toLowerCase();
-    });
+    const buddy = buddies.find((item) => item.employeeId === value || item.realName.toLowerCase() === value.toLowerCase());
     if (!buddy) {
         return { status: 404, data: { message: "Buddy not found" } };
     }

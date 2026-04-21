@@ -1,27 +1,27 @@
-const service = require("../services/buddiesService");
+const {getAll,getOne,create,update,remove} = require("../services/buddiesService");
 
 const getAllBuddies = (req, res) => {
-  const result = service.getAll();
+  const result = getAll();
   res.status(result.status).json(result.data);
 };
 
 const getSingleBuddy = (req, res) => {
-  const result = service.getOne(req.params.value);
+  const result =getOne(req.params.value);
   res.status(result.status).json(result.data);
 };
 
 const addBuddy = (req, res) => {
-  const result = service.create(req.body);
+  const result = create(req.body);
   res.status(result.status).json(result.data);
 };
 
 const updateBuddy = (req, res) => {
-  const result = service.update(req.params.employeeId, req.body);
+  const result = update(req.params.employeeId, req.body);
   res.status(result.status).json(result.data);
 };
 
 const deleteBuddy = (req, res) => {
-  const result = service.remove(req.params.employeeId);
+  const result = remove(req.params.employeeId);
   res.status(result.status).json(result.data);
 };
 
