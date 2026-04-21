@@ -1,11 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const controller = require("../controllers/buddiesController.js");
+const {getAllBuddies,getSingleBuddy,addBuddy,updateBuddy,deleteBuddy}= require("../controllers/buddiesController.js");
 
-router.get("/", controller.getAllBuddies);
-router.get("/:value", controller.getSingleBuddy);
-router.post("/addBuddy", controller.addBuddy);
-router.put("/:employeeId", controller.updateBuddy);
-router.delete("/:employeeId", controller.deleteBuddy);
+router.get("/", getAllBuddies);
+router.get("/:value", getSingleBuddy);
+router.post("/addBuddy", addBuddy);
+router.put("/:employeeId", updateBuddy);
+router.delete("/:employeeId",deleteBuddy);
 
 module.exports = router;

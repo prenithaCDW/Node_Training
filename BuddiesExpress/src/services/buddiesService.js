@@ -4,7 +4,7 @@ const { readData, writeData } = require("../utils/fileUtil");
  * Reads data from JSON file and returns all buddies
  * @returns all buddies from JSON file
  */
-exports.getAll = () => {
+const getAll = () => {
     return { status: 200, data: readData() };
 };
 
@@ -13,7 +13,7 @@ exports.getAll = () => {
  * @param {*} value 
  * @returns one buddy from JSON file
  */
-exports.getOne = (value) => {
+const getOne = (value) => {
     const buddies = readData();
     const buddy = buddies.find((item) => {
         item.employeeId === value || item.realName.toLowerCase() === value.toLowerCase();
@@ -28,7 +28,7 @@ exports.getOne = (value) => {
  * @param {*} data 
  * @returns the buddy created
  */
-exports.create = (data) => {
+const create = (data) => {
     if (!data.employeeId || !data.realName) {
         return { status: 400, data: { message: "employeeId and realName are required" } };
     }
@@ -47,7 +47,7 @@ exports.create = (data) => {
  * @param {*} updates 
  * @returns updated field of the buddy
  */
-exports.update = (employeeId, updates) => {
+const update = (employeeId, updates) => {
     const buddies = readData();
     const index = buddies.findIndex(item => item.employeeId === employeeId);
     if (index === -1) {
@@ -72,13 +72,14 @@ exports.update = (employeeId, updates) => {
  * @param {*} employeeId 
  * @returns message 
  */
-exports.remove = (employeeId) => {
+const remove = (employeeId) => {
     const buddies = readData();
-    const index=buddies.findIndex(item=>item.employeeId===employeeId);
-    if (index===-1) {
+    const index = buddies.findIndex(item => item.employeeId === employeeId);
+    if (index === -1) {
         return { status: 404, data: { message: "Buddy not found" } };
     }
-    buddies.splice(index,1);
+    buddies.splice(index, 1);
     writeData(buddies);
     return { status: 200, data: { message: "Buddy deleted successfully" } };
 };
+module.exports={getAll,getOne,create,update,remove};
