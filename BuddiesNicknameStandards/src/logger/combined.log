@@ -1,0 +1,7 @@
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-25T13:52:37.071Z"}
+{"level":"info","message":"Add single buddies","timestamp":"2026-04-25T13:53:03.716Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"164ms","statusCode":201,"timestamp":"2026-04-25T13:53:03.722Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"Get single buddies","timestamp":"2026-04-25T13:53:29.821Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"62ms","statusCode":404,"timestamp":"2026-04-25T13:53:29.824Z","url":"/buddies/EMP007"}
+{"level":"info","message":"Get single buddies","timestamp":"2026-04-25T13:54:08.634Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"56ms","statusCode":200,"timestamp":"2026-04-25T13:54:08.635Z","url":"/buddies/EMP002"}
