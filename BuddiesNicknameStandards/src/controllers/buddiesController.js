@@ -7,7 +7,7 @@ const getAllBuddies = async (req, res) => {
     logger.info("Get all buddies");
     res.status(result.status).json(result.data);
   }
-  catch (err) {
+  catch (error) {
     logger.error("Failed to get all buddies", { message: error.message, stack: error.stack });
     res.status(500).json({ message: err.message });
   }
@@ -19,7 +19,7 @@ const getSingleBuddy = async (req, res) => {
     logger.info("Get single buddies");
     res.status(result.status).json(result.data);
   }
-  catch (err) {
+  catch (error) {
     logger.error("Failed to get single buddies", { message: error.message, stack: error.stack });
     res.status(500).json({ message: err.message });
   }
@@ -31,7 +31,7 @@ const addBuddy = async (req, res) => {
     logger.info("Add single buddies");
     res.status(result.status).json(result.data);
   }
-  catch (err) {
+  catch (error) {
     logger.error("Failed to add single buddies", { message: error.message, stack: error.stack });
     res.status(500).json({ message: err.message });
   }
@@ -43,7 +43,7 @@ const updateBuddy = async (req, res) => {
     logger.info("Update buddy using id ");
     res.status(result.status).json(result.data);
   }
-  catch (err) {
+  catch (error) {
     logger.error("Failed to update buddies", { message: error.message, stack: error.stack });
     res.status(500).json({ message: err.message });
   }
@@ -55,7 +55,7 @@ const deleteBuddy = async (req, res) => {
     logger.info("Delete single buddy");
     res.status(result.status).json(result.data);
   }
-  catch (err) {
+  catch (error) {
     logger.error("Failed to delete buddy", { message: error.message, stack: error.stack });
     res.status(500).json({ message: err.message });
   }
