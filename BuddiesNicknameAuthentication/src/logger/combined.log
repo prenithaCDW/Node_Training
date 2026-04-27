@@ -1,0 +1,289 @@
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T06:34:00.191Z"}
+{"body":{"employeeID":"ADMIN001"},"level":"info","message":"Register request received","method":"POST","path":"/auth/signup","timestamp":"2026-04-27T07:06:58.761Z"}
+{"level":"error","message":"Failed to sign up employeeID is not defined","stack":"ReferenceError: employeeID is not defined\n    at signup (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:21:45)\n    at registerUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:7:36)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at /Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:295:15\n    at processParams (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:582:12)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:291:5)","timestamp":"2026-04-27T07:06:58.761Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"11ms","statusCode":500,"timestamp":"2026-04-27T07:06:58.763Z","url":"/auth/signup"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T07:12:49.223Z"}
+{"body":{"employeeID":"ADMIN001"},"level":"info","message":"Register request received","method":"POST","path":"/auth/signup","timestamp":"2026-04-27T07:12:56.476Z"}
+{"level":"error","message":"Failed to sign up req is not defined","stack":"ReferenceError: req is not defined\n    at signup (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:11:37)\n    at registerUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:7:36)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at /Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:295:15\n    at processParams (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:582:12)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:291:5)","timestamp":"2026-04-27T07:12:56.477Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"11ms","statusCode":500,"timestamp":"2026-04-27T07:12:56.478Z","url":"/auth/signup"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T07:13:40.157Z"}
+{"body":{"employeeID":"ADMIN001"},"level":"info","message":"Register request received","method":"POST","path":"/auth/signup","timestamp":"2026-04-27T07:13:43.844Z"}
+{"level":"error","message":"Failed to sign up Cannot destructure property 'employeeID' of 'data.body' as it is undefined.","stack":"TypeError: Cannot destructure property 'employeeID' of 'data.body' as it is undefined.\n    at signup (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:11:11)\n    at registerUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:7:36)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at /Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:295:15\n    at processParams (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:582:12)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:291:5)","timestamp":"2026-04-27T07:13:43.844Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"7ms","statusCode":500,"timestamp":"2026-04-27T07:13:43.846Z","url":"/auth/signup"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:06:21.353Z"}
+{"body":{"employeeID":"ADMIN001"},"level":"info","message":"Register request received","method":"POST","path":"/auth/signup","timestamp":"2026-04-27T09:06:31.742Z"}
+{"level":"error","message":"Failed to sign up Cannot destructure property 'employeeID' of 'data.body' as it is undefined.","stack":"TypeError: Cannot destructure property 'employeeID' of 'data.body' as it is undefined.\n    at signup (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:11:11)\n    at registerUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:7:36)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at /Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:295:15\n    at processParams (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:582:12)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:291:5)","timestamp":"2026-04-27T09:06:31.743Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"11ms","statusCode":500,"timestamp":"2026-04-27T09:06:31.745Z","url":"/auth/signup"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:07:40.488Z"}
+{"body":{"employeeID":"ADMIN001"},"level":"info","message":"Register request received","method":"POST","path":"/auth/signup","timestamp":"2026-04-27T09:07:43.342Z"}
+{"level":"error","message":"Failed to sign up data.findOne is not a function","stack":"TypeError: data.findOne is not a function\n    at signup (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:16:35)\n    at registerUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:7:36)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at /Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:295:15\n    at processParams (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:582:12)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:291:5)","timestamp":"2026-04-27T09:07:43.343Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"9ms","statusCode":500,"timestamp":"2026-04-27T09:07:43.344Z","url":"/auth/signup"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:08:07.986Z"}
+{"body":{"employeeID":"ADMIN001"},"level":"info","message":"Register request received","method":"POST","path":"/auth/signup","timestamp":"2026-04-27T09:08:13.675Z"}
+{"level":"info","message":"User registered successfully","timestamp":"2026-04-27T09:08:13.819Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"153ms","statusCode":201,"timestamp":"2026-04-27T09:08:13.821Z","url":"/auth/signup"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T09:09:13.100Z"}
+{"level":"error","message":"Failed to login Cannot access 'user' before initialization","stack":"ReferenceError: Cannot access 'user' before initialization\n    at login (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:32:18)\n    at loginUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:20:33)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/lib/layer.js:152:17)\n    at /Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:295:15\n    at processParams (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:582:12)\n    at next (/Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/node_modules/router/index.js:291:5)","timestamp":"2026-04-27T09:09:13.101Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"3ms","statusCode":500,"timestamp":"2026-04-27T09:09:13.102Z","url":"/auth/login"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:11:36.433Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:11:37.899Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:11:41.058Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:12:52.903Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:13:00.350Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:13:04.804Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:13:07.912Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:13:20.979Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:13:24.292Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T09:13:52.869Z"}
+{"level":"info","message":"User log in succussfull","timestamp":"2026-04-27T09:13:52.987Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"128ms","statusCode":200,"timestamp":"2026-04-27T09:13:52.989Z","url":"/auth/login"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:14:05.392Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:14:06.361Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:14:12.973Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:14:17.922Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:14:26.236Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"4ms","statusCode":404,"timestamp":"2026-04-27T09:18:08.636Z","url":"//buddies"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:19:51.470Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"4ms","statusCode":404,"timestamp":"2026-04-27T09:23:41.188Z","url":"//buddies"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:24:40.682Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:24:55.150Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:24:56.354Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"4ms","statusCode":404,"timestamp":"2026-04-27T09:27:33.660Z","url":"//buddies"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:27:54.882Z"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T09:28:35.088Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:28:35.089Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T09:28:35.118Z"}
+{"allowedRoles":[["admin"]],"level":"warn","message":"Authorization failed as no correct role","method":"GET","path":"/buddies","role":"admin","timestamp":"2026-04-27T09:28:35.118Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"34ms","statusCode":403,"timestamp":"2026-04-27T09:28:35.120Z","url":"/buddies"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T09:30:10.072Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:30:10.073Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T09:30:10.098Z"}
+{"allowedRoles":[["admin"]],"level":"warn","message":"Authorization failed as no correct role","method":"GET","path":"/buddies","role":"admin","timestamp":"2026-04-27T09:30:10.098Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"27ms","statusCode":403,"timestamp":"2026-04-27T09:30:10.099Z","url":"/buddies"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:34:58.936Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:35:00.992Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:35:03.489Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:35:06.091Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:35:10.090Z"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T09:35:15.639Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:35:15.642Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T09:35:15.672Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies","role":"admin","timestamp":"2026-04-27T09:35:15.672Z"}
+{"level":"info","message":"Get all buddies","timestamp":"2026-04-27T09:35:15.701Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"66ms","statusCode":200,"timestamp":"2026-04-27T09:35:15.704Z","url":"/buddies"}
+{"level":"warn","message":"Authorization failed. Missing or invalid authorization header","method":"POST","path":"/buddies/addBuddy","timestamp":"2026-04-27T09:35:55.345Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"11ms","statusCode":401,"timestamp":"2026-04-27T09:35:55.345Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"Token received","method":"POST","path":"/buddies/addBuddy","timestamp":"2026-04-27T09:36:22.082Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:36:22.083Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T09:36:22.121Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/addBuddy","role":"admin","timestamp":"2026-04-27T09:36:22.121Z"}
+{"level":"info","message":"Add single buddies","timestamp":"2026-04-27T09:36:22.147Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"66ms","statusCode":400,"timestamp":"2026-04-27T09:36:22.148Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"Token received","method":"POST","path":"/buddies/addBuddy","timestamp":"2026-04-27T09:36:40.584Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:36:40.584Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T09:36:40.608Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/addBuddy","role":"admin","timestamp":"2026-04-27T09:36:40.608Z"}
+{"level":"info","message":"Add single buddies","timestamp":"2026-04-27T09:36:40.668Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"85ms","statusCode":201,"timestamp":"2026-04-27T09:36:40.669Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies/EMP002","timestamp":"2026-04-27T09:37:35.453Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:37:35.454Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T09:37:35.478Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/EMP002","role":"admin","timestamp":"2026-04-27T09:37:35.478Z"}
+{"level":"info","message":"Get single buddies","timestamp":"2026-04-27T09:37:35.504Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"53ms","statusCode":200,"timestamp":"2026-04-27T09:37:35.505Z","url":"/buddies/EMP002"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies/Prenitha","timestamp":"2026-04-27T09:37:54.378Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:37:54.379Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T09:37:54.403Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/Prenitha","role":"admin","timestamp":"2026-04-27T09:37:54.403Z"}
+{"level":"info","message":"Get single buddies","timestamp":"2026-04-27T09:37:54.428Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"51ms","statusCode":200,"timestamp":"2026-04-27T09:37:54.429Z","url":"/buddies/Prenitha"}
+{"level":"info","message":"Token received","method":"PUT","path":"/buddies/EMP004","timestamp":"2026-04-27T09:38:22.314Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:38:22.315Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T09:38:22.338Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/EMP004","role":"admin","timestamp":"2026-04-27T09:38:22.339Z"}
+{"level":"info","message":"Update buddy using id ","timestamp":"2026-04-27T09:38:22.375Z"}
+{"level":"info","message":"HTTP Request","method":"PUT","responseTime":"62ms","statusCode":404,"timestamp":"2026-04-27T09:38:22.376Z","url":"/buddies/EMP004"}
+{"level":"info","message":"Token received","method":"PUT","path":"/buddies/EMP003","timestamp":"2026-04-27T09:38:26.343Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:38:26.344Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T09:38:26.369Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/EMP003","role":"admin","timestamp":"2026-04-27T09:38:26.369Z"}
+{"level":"info","message":"Update buddy using id ","timestamp":"2026-04-27T09:38:26.394Z"}
+{"level":"info","message":"HTTP Request","method":"PUT","responseTime":"53ms","statusCode":200,"timestamp":"2026-04-27T09:38:26.395Z","url":"/buddies/EMP003"}
+{"level":"info","message":"Token received","method":"DELETE","path":"/buddies/EMP002","timestamp":"2026-04-27T09:38:57.029Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:38:57.029Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T09:38:57.057Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/EMP002","role":"admin","timestamp":"2026-04-27T09:38:57.057Z"}
+{"level":"info","message":"Delete single buddy","timestamp":"2026-04-27T09:38:57.089Z"}
+{"level":"info","message":"HTTP Request","method":"DELETE","responseTime":"62ms","statusCode":200,"timestamp":"2026-04-27T09:38:57.090Z","url":"/buddies/EMP002"}
+{"level":"info","message":"Token received","method":"POST","path":"/auth/logout","timestamp":"2026-04-27T09:40:19.225Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:40:19.226Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T09:40:19.250Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Logout request","path":"/auth/logout","timestamp":"2026-04-27T09:40:19.250Z"}
+{"level":"info","message":"User logout succussfull","timestamp":"2026-04-27T09:40:19.277Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"53ms","statusCode":200,"timestamp":"2026-04-27T09:40:19.278Z","url":"/auth/logout"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T09:40:24.862Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:40:24.863Z"}
+{"currentToken":0,"dbToken":1,"employeeID":"ADMIN001","level":"warn","message":"Token version mismatch","timestamp":"2026-04-27T09:40:24.886Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"25ms","statusCode":401,"timestamp":"2026-04-27T09:40:24.887Z","url":"/buddies"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T09:40:42.943Z"}
+{"level":"info","message":"User log in succussfull","timestamp":"2026-04-27T09:40:43.059Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"117ms","statusCode":200,"timestamp":"2026-04-27T09:40:43.059Z","url":"/auth/login"}
+{"body":{"employeeID":"EMP008"},"level":"info","message":"Register request received","method":"POST","path":"/auth/signup","timestamp":"2026-04-27T09:42:27.884Z"}
+{"level":"info","message":"User registered successfully","timestamp":"2026-04-27T09:42:28.029Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"145ms","statusCode":201,"timestamp":"2026-04-27T09:42:28.029Z","url":"/auth/signup"}
+{"employeeID":"EMP008","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T09:44:00.078Z"}
+{"level":"info","message":"User log in succussfull","timestamp":"2026-04-27T09:44:00.192Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"114ms","statusCode":200,"timestamp":"2026-04-27T09:44:00.192Z","url":"/auth/login"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T09:44:45.216Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:44:45.217Z"}
+{"currentToken":0,"dbToken":1,"employeeID":"ADMIN001","level":"warn","message":"Token version mismatch","timestamp":"2026-04-27T09:44:45.239Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"24ms","statusCode":401,"timestamp":"2026-04-27T09:44:45.240Z","url":"/buddies"}
+{"level":"info","message":"Token received","method":"POST","path":"/buddies/addBuddy","timestamp":"2026-04-27T09:45:17.420Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:45:17.420Z"}
+{"currentToken":0,"dbToken":1,"employeeID":"ADMIN001","level":"warn","message":"Token version mismatch","timestamp":"2026-04-27T09:45:17.444Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"25ms","statusCode":401,"timestamp":"2026-04-27T09:45:17.444Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"Token received","method":"POST","path":"/buddies/addBuddy","timestamp":"2026-04-27T09:45:23.102Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T09:45:23.102Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T09:45:23.141Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/addBuddy","role":"user","timestamp":"2026-04-27T09:45:23.142Z"}
+{"level":"info","message":"Add single buddies","timestamp":"2026-04-27T09:45:23.202Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"102ms","statusCode":201,"timestamp":"2026-04-27T09:45:23.203Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T09:45:31.603Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T09:45:31.603Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T09:45:31.628Z"}
+{"allowedRoles":["admin"],"level":"warn","message":"Authorization failed as no correct role","method":"GET","path":"/buddies","role":"user","timestamp":"2026-04-27T09:45:31.628Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"26ms","statusCode":403,"timestamp":"2026-04-27T09:45:31.629Z","url":"/buddies"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies/EMP002","timestamp":"2026-04-27T09:45:53.246Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T09:45:53.247Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T09:45:53.274Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/EMP002","role":"user","timestamp":"2026-04-27T09:45:53.274Z"}
+{"level":"info","message":"Get single buddies","timestamp":"2026-04-27T09:45:53.316Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"70ms","statusCode":404,"timestamp":"2026-04-27T09:45:53.316Z","url":"/buddies/EMP002"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies/EMP008","timestamp":"2026-04-27T09:45:56.859Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T09:45:56.860Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T09:45:56.888Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/EMP008","role":"user","timestamp":"2026-04-27T09:45:56.888Z"}
+{"level":"info","message":"Get single buddies","timestamp":"2026-04-27T09:45:56.916Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"58ms","statusCode":200,"timestamp":"2026-04-27T09:45:56.917Z","url":"/buddies/EMP008"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies/muhammad","timestamp":"2026-04-27T09:46:33.007Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:46:33.007Z"}
+{"currentToken":0,"dbToken":1,"employeeID":"ADMIN001","level":"warn","message":"Token version mismatch","timestamp":"2026-04-27T09:46:33.031Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"24ms","statusCode":401,"timestamp":"2026-04-27T09:46:33.031Z","url":"/buddies/muhammad"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies/muhammad","timestamp":"2026-04-27T09:46:46.022Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T09:46:46.023Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T09:46:46.088Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/muhammad","role":"user","timestamp":"2026-04-27T09:46:46.088Z"}
+{"level":"info","message":"Get single buddies","timestamp":"2026-04-27T09:46:46.130Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"110ms","statusCode":200,"timestamp":"2026-04-27T09:46:46.132Z","url":"/buddies/muhammad"}
+{"level":"info","message":"Token received","method":"PUT","path":"/buddies/EMP003","timestamp":"2026-04-27T09:46:58.097Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T09:46:58.098Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T09:46:58.145Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/EMP003","role":"user","timestamp":"2026-04-27T09:46:58.146Z"}
+{"level":"info","message":"Update buddy using id ","timestamp":"2026-04-27T09:46:58.180Z"}
+{"level":"info","message":"HTTP Request","method":"PUT","responseTime":"84ms","statusCode":200,"timestamp":"2026-04-27T09:46:58.181Z","url":"/buddies/EMP003"}
+{"level":"info","message":"Token received","method":"PUT","path":"/buddies/EMP008","timestamp":"2026-04-27T09:54:05.389Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T09:54:05.390Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T09:54:05.414Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/EMP008","role":"user","timestamp":"2026-04-27T09:54:05.415Z"}
+{"level":"info","message":"Update buddy using id ","timestamp":"2026-04-27T09:54:05.459Z"}
+{"level":"info","message":"HTTP Request","method":"PUT","responseTime":"72ms","statusCode":200,"timestamp":"2026-04-27T09:54:05.460Z","url":"/buddies/EMP008"}
+{"level":"info","message":"Token received","method":"DELETE","path":"/buddies/EMP005","timestamp":"2026-04-27T09:54:24.670Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T09:54:24.671Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T09:54:24.726Z"}
+{"allowedRoles":["admin"],"level":"warn","message":"Authorization failed as no correct role","method":"DELETE","path":"/buddies/EMP005","role":"user","timestamp":"2026-04-27T09:54:24.726Z"}
+{"level":"info","message":"HTTP Request","method":"DELETE","responseTime":"56ms","statusCode":403,"timestamp":"2026-04-27T09:54:24.726Z","url":"/buddies/EMP005"}
+{"level":"info","message":"Token received","method":"DELETE","path":"/buddies/EMP008","timestamp":"2026-04-27T09:54:27.911Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T09:54:27.912Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T09:54:27.937Z"}
+{"allowedRoles":["admin"],"level":"warn","message":"Authorization failed as no correct role","method":"DELETE","path":"/buddies/EMP008","role":"user","timestamp":"2026-04-27T09:54:27.937Z"}
+{"level":"info","message":"HTTP Request","method":"DELETE","responseTime":"27ms","statusCode":403,"timestamp":"2026-04-27T09:54:27.938Z","url":"/buddies/EMP008"}
+{"level":"info","message":"Token received","method":"DELETE","path":"/buddies/EMP008","timestamp":"2026-04-27T09:54:36.715Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T09:54:36.716Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T09:54:36.740Z"}
+{"allowedRoles":["admin"],"level":"warn","message":"Authorization failed as no correct role","method":"DELETE","path":"/buddies/EMP008","role":"user","timestamp":"2026-04-27T09:54:36.740Z"}
+{"level":"info","message":"HTTP Request","method":"DELETE","responseTime":"25ms","statusCode":403,"timestamp":"2026-04-27T09:54:36.740Z","url":"/buddies/EMP008"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:57:00.004Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:57:01.248Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T09:57:03.706Z"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T09:57:24.181Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:57:24.183Z"}
+{"currentToken":0,"dbToken":1,"employeeID":"ADMIN001","level":"warn","message":"Token version mismatch","timestamp":"2026-04-27T09:57:24.212Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"35ms","statusCode":401,"timestamp":"2026-04-27T09:57:24.215Z","url":"/buddies"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T09:57:31.188Z"}
+{"level":"info","message":"User log in succussfull","timestamp":"2026-04-27T09:57:31.302Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"125ms","statusCode":200,"timestamp":"2026-04-27T09:57:31.302Z","url":"/auth/login"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T09:57:52.230Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:57:52.231Z"}
+{"currentToken":0,"dbToken":1,"employeeID":"ADMIN001","level":"warn","message":"Token version mismatch","timestamp":"2026-04-27T09:57:52.258Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"29ms","statusCode":401,"timestamp":"2026-04-27T09:57:52.259Z","url":"/buddies"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T09:58:01.943Z"}
+{"level":"info","message":"User log in succussfull","timestamp":"2026-04-27T09:58:02.060Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"119ms","statusCode":200,"timestamp":"2026-04-27T09:58:02.060Z","url":"/auth/login"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T09:58:36.077Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T09:58:36.077Z"}
+{"currentToken":0,"dbToken":1,"employeeID":"ADMIN001","level":"warn","message":"Token version mismatch","timestamp":"2026-04-27T09:58:36.110Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"35ms","statusCode":401,"timestamp":"2026-04-27T09:58:36.111Z","url":"/buddies"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:04:53.697Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:04:58.902Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:05:03.133Z"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T10:05:08.603Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T10:05:08.605Z"}
+{"currentToken":0,"dbToken":1,"employeeID":"ADMIN001","level":"warn","message":"Token version mismatch","timestamp":"2026-04-27T10:05:08.633Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"34ms","statusCode":401,"timestamp":"2026-04-27T10:05:08.635Z","url":"/buddies"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:05:15.403Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:05:21.809Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T10:06:18.301Z"}
+{"level":"error","message":"Failed to login userLo is not defined","stack":"ReferenceError: userLo is not defined\n    at login (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:44:119)\n    at async loginUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:20:27)","timestamp":"2026-04-27T10:06:18.424Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"133ms","statusCode":500,"timestamp":"2026-04-27T10:06:18.426Z","url":"/auth/login"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T10:06:38.461Z"}
+{"level":"error","message":"Failed to login userLo is not defined","stack":"ReferenceError: userLo is not defined\n    at login (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:44:119)\n    at async loginUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:20:27)","timestamp":"2026-04-27T10:06:38.568Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"108ms","statusCode":500,"timestamp":"2026-04-27T10:06:38.568Z","url":"/auth/login"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T10:08:10.508Z"}
+{"level":"error","message":"Failed to login userLo is not defined","stack":"ReferenceError: userLo is not defined\n    at login (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:44:119)\n    at async loginUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:20:27)","timestamp":"2026-04-27T10:08:10.613Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"107ms","statusCode":500,"timestamp":"2026-04-27T10:08:10.614Z","url":"/auth/login"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:08:44.905Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:08:46.083Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T10:08:53.845Z"}
+{"level":"error","message":"Failed to login userLo is not defined","stack":"ReferenceError: userLo is not defined\n    at login (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:44:119)\n    at async loginUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:21:27)","timestamp":"2026-04-27T10:08:53.956Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"125ms","statusCode":500,"timestamp":"2026-04-27T10:08:53.958Z","url":"/auth/login"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:09:12.428Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T10:09:14.395Z"}
+{"level":"error","message":"Failed to login userLo is not defined","stack":"ReferenceError: userLo is not defined\n    at login (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:44:119)\n    at async loginUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:21:27)","timestamp":"2026-04-27T10:09:14.506Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"123ms","statusCode":500,"timestamp":"2026-04-27T10:09:14.508Z","url":"/auth/login"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:10:11.956Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:10:41.572Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:10:48.304Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T10:10:53.230Z"}
+{"level":"error","message":"Failed to login userLo is not defined","stack":"ReferenceError: userLo is not defined\n    at login (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/services/authService.js:45:119)\n    at async loginUser (file:///Users/prenithasp/Documents/Training/Node/BuddiesNicknameAuthentication/src/controllers/authController.js:20:27)","timestamp":"2026-04-27T10:10:53.342Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"125ms","statusCode":500,"timestamp":"2026-04-27T10:10:53.344Z","url":"/auth/login"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:11:10.548Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-04-27T10:12:14.704Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-04-27T10:12:17.572Z"}
+{"level":"info","message":"User log in succussfull","timestamp":"2026-04-27T10:12:17.688Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"127ms","statusCode":200,"timestamp":"2026-04-27T10:12:17.690Z","url":"/auth/login"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T10:12:52.568Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T10:12:52.570Z"}
+{"currentToken":0,"dbToken":1,"employeeID":"ADMIN001","level":"warn","message":"Token version mismatch","timestamp":"2026-04-27T10:12:52.595Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"28ms","statusCode":401,"timestamp":"2026-04-27T10:12:52.596Z","url":"/buddies"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-04-27T10:13:14.099Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Token verified","timestamp":"2026-04-27T10:13:14.100Z"}
+{"employeeID":"ADMIN001","level":"info","message":"Authorization was successful","role":"admin","timestamp":"2026-04-27T10:13:14.124Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies","role":"admin","timestamp":"2026-04-27T10:13:14.125Z"}
+{"level":"info","message":"Get all buddies","timestamp":"2026-04-27T10:13:14.152Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"56ms","statusCode":200,"timestamp":"2026-04-27T10:13:14.154Z","url":"/buddies"}
+{"level":"info","message":"Token received","method":"DELETE","path":"/buddies/EMP008","timestamp":"2026-04-27T10:13:31.319Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T10:13:31.320Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T10:13:31.343Z"}
+{"allowedRoles":["admin"],"level":"warn","message":"Authorization failed as no correct role","method":"DELETE","path":"/buddies/EMP008","role":"user","timestamp":"2026-04-27T10:13:31.343Z"}
+{"level":"info","message":"HTTP Request","method":"DELETE","responseTime":"25ms","statusCode":403,"timestamp":"2026-04-27T10:13:31.344Z","url":"/buddies/EMP008"}
+{"level":"info","message":"Token received","method":"DELETE","path":"/buddies/EMP008","timestamp":"2026-04-27T10:13:59.466Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T10:13:59.467Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T10:13:59.491Z"}
+{"allowedRoles":["admin"],"level":"warn","message":"Authorization failed as no correct role","method":"DELETE","path":"/buddies/EMP008","role":"user","timestamp":"2026-04-27T10:13:59.491Z"}
+{"level":"info","message":"HTTP Request","method":"DELETE","responseTime":"26ms","statusCode":403,"timestamp":"2026-04-27T10:13:59.492Z","url":"/buddies/EMP008"}
+{"level":"info","message":"Token received","method":"PUT","path":"/buddies/EMP003","timestamp":"2026-04-27T10:14:15.324Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-04-27T10:14:15.325Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-04-27T10:14:15.353Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/EMP003","role":"user","timestamp":"2026-04-27T10:14:15.353Z"}
+{"level":"info","message":"Update buddy using id ","timestamp":"2026-04-27T10:14:15.393Z"}
+{"level":"info","message":"HTTP Request","method":"PUT","responseTime":"71ms","statusCode":200,"timestamp":"2026-04-27T10:14:15.394Z","url":"/buddies/EMP003"}
