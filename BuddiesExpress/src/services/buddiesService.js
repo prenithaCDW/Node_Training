@@ -1,0 +1,69 @@
+const { readData, writeData } = require("../utils/fileUtil");
+/***
+ * Get all  buddies
+ * Reads data from JSON file and returns all buddies
+ * @returns all buddies from JSON file
+ */
+const getAll = () => {
+    return { status: 200, data: readData() };
+};
+
+/**
+ *  GET SINGLE BUDDY BY employeeId OR realName
+ * @param {*} value 
+ * @returns one buddy from JSON file
+ */
+const getOne = (value) => {
+    const buddies = readData();
+    const buddy = buddies.find((item) => item.employeeId === value || item.realName.toLowerCase() === value.toLowerCase());
+    if (!buddy) {
+        return { status: 404, data: { message: "Buddy not found" } };
+    }
+    return { status: 200, data: buddy };
+};
+/**
+ * CREATE / ADD NEW BUDDY
+ * @param {*} data 
+ * @returns the buddy created
+ */
+const create = (data) => {
+    const buddies = readData();
+    const existBuddy = buddies.some((item) => item.employeeId === data.employeeId);
+    if (existBuddy) {
+        return { status: 400, data: { message: "Employee already exists" } };
+    }
+    buddies.push(data);
+    writeData(buddies);
+    return { status: 201, data };
+};
+/**
+ * UPDATE EXISTING BUDDY (Partial Update)
+ * @param {*} employeeId 
+ * @param {*} updates 
+ * @returns updated field of the buddy
+ */
+const update = (employeeId, updates) => {
+    const buddies = readData();
+    const index = buddies.findIndex(item => item.employeeId === employeeId);
+    if (index === -1) {
+        return { status: 404, data: { message: "Buddy not found" } };
+    }
+    buddies[index]={...buddies[index],...updates};
+    return { status: 200, data: buddies[index] };
+};
+/**
+ * DELETE BUDDY BY employeeId
+ * @param {*} employeeId 
+ * @returns message 
+ */
+const remove = (employeeId) => {
+    const buddies = readData();
+    const index = buddies.findIndex(item => item.employeeId === employeeId);
+    if (index === -1) {
+        return { status: 404, data: { message: "Buddy not found" } };
+    }
+    buddies.splice(index, 1);
+    writeData(buddies);
+    return { status: 200, data: { message: "Buddy deleted successfully" } };
+};
+module.exports={getAll,getOne,create,update,remove};
