@@ -27,9 +27,6 @@ const getOne = (value) => {
  * @returns the buddy created
  */
 const create = (data) => {
-    if (!data.employeeId || !data.realName) {
-        return { status: 400, data: { message: "employeeId and realName are required" } };
-    }
     const buddies = readData();
     const existBuddy = buddies.some((item) => item.employeeId === data.employeeId);
     if (existBuddy) {
@@ -51,18 +48,7 @@ const update = (employeeId, updates) => {
     if (index === -1) {
         return { status: 404, data: { message: "Buddy not found" } };
     }
-    if (updates.realName) {
-        buddies[index].realName = updates.realName;
-    }
-    if (updates.nickName) {
-        buddies[index].nickName = updates.nickName;
-    }
-    if (updates.hobbies) {
-        buddies[index].hobbies = updates.hobbies;
-    }
-    if (updates.dob) {
-        buddies[index].dob = updates.dob;
-    }
+    buddies[index]={...buddies[index],...updates};
     return { status: 200, data: buddies[index] };
 };
 /**

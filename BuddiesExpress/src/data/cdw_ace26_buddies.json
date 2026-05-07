@@ -18,5 +18,25 @@
       "anime",
       "coding"
     ]
+  },
+  {
+    "employeeId": "ACE022",
+    "realName": "Arsath",
+    "nickName": "Arsi",
+    "dob": "2004-03-31",
+    "hobbies": [
+      "anime",
+      "coding"
+    ]
+  },
+  {
+    "employeeId": "ACE029",
+    "realName": "Arsath",
+    "nickName": "Arsi",
+    "dob": "2004-03-31",
+    "hobbies": [
+      "anime",
+      "coding"
+    ]
   }
 ]
