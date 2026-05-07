@@ -1,1 +1,1 @@
-npm install express cors mongoose winston dotenv mongodb
+npm install express cors mongoose winston dotenv mongodb joi

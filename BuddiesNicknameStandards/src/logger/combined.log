@@ -5,3 +5,41 @@
 {"level":"info","message":"HTTP Request","method":"GET","responseTime":"62ms","statusCode":404,"timestamp":"2026-04-25T13:53:29.824Z","url":"/buddies/EMP007"}
 {"level":"info","message":"Get single buddies","timestamp":"2026-04-25T13:54:08.634Z"}
 {"level":"info","message":"HTTP Request","method":"GET","responseTime":"56ms","statusCode":200,"timestamp":"2026-04-25T13:54:08.635Z","url":"/buddies/EMP002"}
+{"level":"error","message":"Failed to get all buddies Operation `buddies.find()` buffering timed out after 10000ms","stack":"MongooseError: Operation `buddies.find()` buffering timed out after 10000ms\n    at Timeout._onTimeout (/Users/prenithasp/Documents/Training/Node/Node_Training/BuddiesNicknameStandards/node_modules/mongoose/lib/drivers/node-mongodb-native/collection.js:142:25)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)","timestamp":"2026-05-07T12:34:55.381Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"10020ms","statusCode":500,"timestamp":"2026-05-07T12:34:55.390Z","url":"/buddies"}
+{"level":"error","message":"MongoDB connection failed: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/","stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\n    at _handleConnectionErrors (/Users/prenithasp/Documents/Training/Node/Node_Training/BuddiesNicknameStandards/node_modules/mongoose/lib/connection.js:1180:11)\n    at NativeConnection.openUri (/Users/prenithasp/Documents/Training/Node/Node_Training/BuddiesNicknameStandards/node_modules/mongoose/lib/connection.js:1111:11)\n    at async connectDB (file:///Users/prenithasp/Documents/Training/Node/Node_Training/BuddiesNicknameStandards/src/config/db.js:5:9)","timestamp":"2026-05-07T12:35:06.829Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T12:45:31.131Z"}
+{"level":"info","message":"Get all buddies","timestamp":"2026-05-07T12:45:38.038Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"59ms","statusCode":200,"timestamp":"2026-05-07T12:45:38.042Z","url":"/buddies"}
+
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T12:51:36.267Z"}
+{"level":"error","message":"Failed to add single buddies Buddy validation failed: employeeID: Path `employeeID` is required.","stack":"ValidationError: Buddy validation failed: employeeID: Path `employeeID` is required.\n    at model.validate (/Users/prenithasp/Documents/Training/Node/Node_Training/BuddiesNicknameStandards/node_modules/mongoose/lib/document.js:2864:36)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async model.$__save (/Users/prenithasp/Documents/Training/Node/Node_Training/BuddiesNicknameStandards/node_modules/mongoose/lib/model.js:393:7)\n    at async model.save (/Users/prenithasp/Documents/Training/Node/Node_Training/BuddiesNicknameStandards/node_modules/mongoose/lib/model.js:667:5)\n    at async model.create (/Users/prenithasp/Documents/Training/Node/Node_Training/BuddiesNicknameStandards/node_modules/mongoose/lib/model.js:2747:5)\n    at async create (file:///Users/prenithasp/Documents/Training/Node/Node_Training/BuddiesNicknameStandards/src/services/buddiesService.js:39:22)\n    at async addBuddy (file:///Users/prenithasp/Documents/Training/Node/Node_Training/BuddiesNicknameStandards/src/controllers/buddiesController.js:30:20)","timestamp":"2026-05-07T12:51:46.704Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"59ms","statusCode":500,"timestamp":"2026-05-07T12:51:46.706Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"3ms","statusCode":400,"timestamp":"2026-05-07T12:51:56.267Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"1ms","statusCode":400,"timestamp":"2026-05-07T12:52:45.416Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T12:52:55.666Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T12:52:59.412Z"}
+{"level":"info","message":"Add single buddies","timestamp":"2026-05-07T12:53:01.830Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"111ms","statusCode":201,"timestamp":"2026-05-07T12:53:01.834Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T13:03:34.196Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T13:07:52.810Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T13:23:29.973Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T13:23:30.894Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T13:24:07.533Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T13:51:18.812Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T13:51:20.330Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T13:51:22.326Z"}
+{"level":"info","message":"Validation passed successfully","method":"POST","timestamp":"2026-05-07T13:51:39.998Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"Add single buddies","timestamp":"2026-05-07T13:51:40.108Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"124ms","statusCode":201,"timestamp":"2026-05-07T13:51:40.113Z","url":"/buddies/addBuddy"}
+{"level":"info","message":"Get all buddies","timestamp":"2026-05-07T13:51:42.678Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"49ms","statusCode":200,"timestamp":"2026-05-07T13:51:42.680Z","url":"/buddies"}
+{"level":"info","message":"Get single buddies","timestamp":"2026-05-07T13:51:47.556Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"43ms","statusCode":200,"timestamp":"2026-05-07T13:51:47.557Z","url":"/buddies/Gowtham"}
+{"level":"info","message":"Validation passed successfully","method":"PUT","timestamp":"2026-05-07T13:52:01.712Z","url":"/buddies/ACE025"}
+{"level":"info","message":"Update buddy using id ","timestamp":"2026-05-07T13:52:01.755Z"}
+{"level":"info","message":"HTTP Request","method":"PUT","responseTime":"47ms","statusCode":404,"timestamp":"2026-05-07T13:52:01.757Z","url":"/buddies/ACE025"}
+{"level":"info","message":"Validation passed successfully","method":"PUT","timestamp":"2026-05-07T13:52:19.935Z","url":"/buddies/EMP001"}
+{"level":"info","message":"Update buddy using id ","timestamp":"2026-05-07T13:52:19.979Z"}
+{"level":"info","message":"HTTP Request","method":"PUT","responseTime":"46ms","statusCode":200,"timestamp":"2026-05-07T13:52:19.980Z","url":"/buddies/EMP001"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T13:53:15.478Z"}

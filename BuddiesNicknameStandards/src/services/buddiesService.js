@@ -32,9 +32,6 @@ const getOne = async (value) => {
  * @returns the buddy created
  */
 const create = async (data) => {
-    if (!data.employeeID || !data.realName) {
-        return { status: 400, data: { message: "employeeID and realName are required" } };
-    }
     const existBuddy = await Buddy.findOne({ employeeID: data.employeeID });
     if (existBuddy) {
         return { status: 400, data: { message: "Employee already exists" } };
