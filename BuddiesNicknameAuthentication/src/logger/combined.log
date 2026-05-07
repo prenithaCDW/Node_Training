@@ -287,3 +287,24 @@
 {"level":"info","message":"Authorization successful","path":"/buddies/EMP003","role":"user","timestamp":"2026-04-27T10:14:15.353Z"}
 {"level":"info","message":"Update buddy using id ","timestamp":"2026-04-27T10:14:15.393Z"}
 {"level":"info","message":"HTTP Request","method":"PUT","responseTime":"71ms","statusCode":200,"timestamp":"2026-04-27T10:14:15.394Z","url":"/buddies/EMP003"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2026-05-07T14:09:58.273Z"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-05-07T14:10:04.918Z"}
+{"error":"jwt expired","level":"error","message":"Invalid token","path":"/buddies","timestamp":"2026-05-07T14:10:04.921Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"7ms","statusCode":401,"timestamp":"2026-05-07T14:10:04.924Z","url":"/buddies"}
+{"employeeID":"EMP008","level":"info","message":"Login request","path":"/auth/login","timestamp":"2026-05-07T14:10:19.402Z"}
+{"level":"info","message":"User log in succussfull","timestamp":"2026-05-07T14:10:19.546Z"}
+{"level":"info","message":"HTTP Request","method":"POST","responseTime":"155ms","statusCode":200,"timestamp":"2026-05-07T14:10:19.547Z","url":"/auth/login"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies","timestamp":"2026-05-07T14:10:50.596Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-05-07T14:10:50.597Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-05-07T14:10:50.637Z"}
+{"allowedRoles":["admin"],"level":"warn","message":"Authorization failed as no correct role","method":"GET","path":"/buddies","role":"user","timestamp":"2026-05-07T14:10:50.637Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"42ms","statusCode":403,"timestamp":"2026-05-07T14:10:50.638Z","url":"/buddies"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies/EMP008","timestamp":"2026-05-07T14:10:56.526Z"}
+{"error":"jwt expired","level":"error","message":"Invalid token","path":"/buddies/EMP008","timestamp":"2026-05-07T14:10:56.527Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"3ms","statusCode":401,"timestamp":"2026-05-07T14:10:56.528Z","url":"/buddies/EMP008"}
+{"level":"info","message":"Token received","method":"GET","path":"/buddies/EMP008","timestamp":"2026-05-07T14:11:06.651Z"}
+{"employeeID":"EMP008","level":"info","message":"Token verified","timestamp":"2026-05-07T14:11:06.652Z"}
+{"employeeID":"EMP008","level":"info","message":"Authorization was successful","role":"user","timestamp":"2026-05-07T14:11:06.694Z"}
+{"level":"info","message":"Authorization successful","path":"/buddies/EMP008","role":"user","timestamp":"2026-05-07T14:11:06.695Z"}
+{"level":"info","message":"Get single buddies","timestamp":"2026-05-07T14:11:06.749Z"}
+{"level":"info","message":"HTTP Request","method":"GET","responseTime":"100ms","statusCode":200,"timestamp":"2026-05-07T14:11:06.751Z","url":"/buddies/EMP008"}

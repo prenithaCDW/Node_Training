@@ -1,7 +1,9 @@
 import { getAll, getOne, create, update, remove } from "../services/buddiesService.js";
 import logger from "../config/logger.js";
 
-//get all buddies
+/**
+ * Get all buddies 
+ */
 const getAllBuddies = async (req, res) => {
   try {
     if (req.user.role !== "admin") {
@@ -17,7 +19,9 @@ const getAllBuddies = async (req, res) => {
   }
 };
 
-//get single buddy
+/**
+ * Get single buddy
+ */
 const getSingleBuddy = async (req, res) => {
   try {
     const result = await getOne(req.params.value);
@@ -29,7 +33,10 @@ const getSingleBuddy = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
-//add buddy
+
+/**
+ * Add buddy 
+ */
 const addBuddy = async (req, res) => {
   try {
     if (req.user.role === "user") {
@@ -45,7 +52,9 @@ const addBuddy = async (req, res) => {
   }
 };
 
-//update buddy
+/**
+ * Update buddy 
+ */
 const updateBuddy = async (req, res) => {
   try {
     let employeeID;
@@ -65,7 +74,9 @@ const updateBuddy = async (req, res) => {
   }
 };
 
-//delete buddy
+/**
+ * Delete buddy 
+ */
 const deleteBuddy = async (req, res) => {
   try {
     let employeeID;

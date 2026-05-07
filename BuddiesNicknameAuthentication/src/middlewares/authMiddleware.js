@@ -2,8 +2,11 @@ import jwt from "jsonwebtoken";
 import user from "../models/user.js";
 import logger from "../config/logger.js";
 
-
-//Token verification
+/**
+ * AUTH TOKEN VERIFICATION MIDDLEWARE
+ * Validates JWT from Authorization header, checks user existence and token version before allowing access.
+ * Attaches authenticated user data to req.user if verification succeeds.
+ */
 const verifyToken = async (req, res, next) => {
     const header = req.header("authorization");
     if (!header || !header.startsWith("Bearer")) {
@@ -39,7 +42,10 @@ const verifyToken = async (req, res, next) => {
     }
 }
 
-//Authorizaton of roles
+/**
+ * ROLE-BASED AUTHORIZATION MIDDLEWARE
+ * Restricts access to routes based on allowed user roles.
+ */
 const authorizeRole = (...roles) => {
     return (req, res, next) => {
         const userRole = req.user.role;

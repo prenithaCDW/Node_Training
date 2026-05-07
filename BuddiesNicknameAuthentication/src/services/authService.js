@@ -44,6 +44,11 @@ const login = async (employeeID, password) => {
     return { status: 200, data: { message: "Login Successful", token, user: { employeeID: userLogin.employeeID, role: userLogin.role } } };
 }
 
+/**
+ * Log Out
+ * @param {*} employeeID 
+ * @returns succesful logout  of user/admin
+ */
 const logout = async (employeeID) => {
     await user.updateOne({ employeeID }, { $inc: { tokenState: 1 } });
     return { status: 200, data: { message: "Logout successfull" } };

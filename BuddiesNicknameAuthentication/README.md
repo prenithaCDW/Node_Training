@@ -1,1 +1,1 @@
-npm install express cors mongoose winston dotenv mongodb jsonwebtoken bcryptjs
+npm install express cors mongoose winston dotenv mongodb jsonwebtoken bcryptjs joi

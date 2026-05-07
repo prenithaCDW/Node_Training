@@ -1,7 +1,9 @@
 import { signup, login, logout } from "../services/authService.js";
 import logger from "../config/logger.js";
 
-//register user
+/**
+ * register user
+ */
 const registerUser = async (req, res) => {
     try {
         logger.info("Register request received", { path: req.originalUrl, method: req.method, body: { employeeID: req.body.employeeID } });
@@ -14,8 +16,9 @@ const registerUser = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 }
-
-//login user
+/**
+ * login user
+ */
 const loginUser = async (req, res) => {
     try {
         logger.info("Login request", { employeeID: req.body.employeeID, path: req.originalUrl });
@@ -29,7 +32,9 @@ const loginUser = async (req, res) => {
     }
 }
 
-//logout user
+/**
+ * logout user
+ */
 const logoutUser = async (req, res) => {
     try {
         logger.info("Logout request", { employeeID: req.user.employeeID, path: req.originalUrl });
